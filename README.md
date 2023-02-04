@@ -9,18 +9,19 @@ The input consists of |N| + 1 lines. The first line contains 3 numbers: The numb
 Output File Format:
 The output has |V |+1 lines. The first line contains the length of all of the vehicle routes (i.e. the objective value) as a real number. The following |V| lines represent the vehicle routes. Each vehicle line starts with warehouse identifier 0 followed by the identifiers of the customers serviced by that vehicle and ends with the warehouse identifier 0. Each vehicle line can contain between 2 and |N|+2 values depending on how many customers that vehicle services. Each customer identifier must appear in one of these vehicle lines.
 
-An example:
-Input Example
-5 4 10
-0 0 0 
-3 0 10 
-3 -10 10 
-3 0 -10 
-3 10 -10 
-Output Example
-80.6 
-0 1 2 3 0 
-0 4 0 
-0 0 
-0 0 
+Example: (Note: Here ',' means next line)
+Input:
+5 4 10,
+0 0 0,
+3 0 10,
+3 -10 10,
+3 0 -10,
+3 10 -10
+|| Output:
+80.6,
+0 1 2 3 0,
+0 4 0,
+0 0,
+0 0
+
 This output represents the following routes for each vehicle. Vehicle 0: 0->1->2->3->0. Vehicle 1: 0->4->0. Vehicle 2: 0->0 (not used), Vehicle 3: 0->0 (not used). Note the following equivalent solution using the same routes with different vehicles.
