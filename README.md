@@ -17,7 +17,6 @@ Input Example
 3 -10 10 
 3 0 -10 
 3 10 -10 
-
 Output Example
 80.6 
 0 1 2 3 0 
