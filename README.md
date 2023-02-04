@@ -11,12 +11,13 @@ The output has |V |+1 lines. The first line contains the length of all of the ve
 
 An example:
 Input Example
-5 4 10 
+5 4 10
 0 0 0 
 3 0 10 
 3 -10 10 
 3 0 -10 
 3 10 -10 
+
 Output Example
 80.6 
 0 1 2 3 0 
