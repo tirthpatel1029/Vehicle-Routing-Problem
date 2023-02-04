@@ -10,7 +10,6 @@ Output File Format:
 The output has |V |+1 lines. The first line contains the length of all of the vehicle routes (i.e. the objective value) as a real number. The following |V| lines represent the vehicle routes. Each vehicle line starts with warehouse identifier 0 followed by the identifiers of the customers serviced by that vehicle and ends with the warehouse identifier 0. Each vehicle line can contain between 2 and |N|+2 values depending on how many customers that vehicle services. Each customer identifier must appear in one of these vehicle lines.
 
 An example:
-
 Input Example
 5 4 10 
 0 0 0 
